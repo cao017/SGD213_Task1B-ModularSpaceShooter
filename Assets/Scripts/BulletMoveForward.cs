@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BulletMoveForward : MonoBehaviour {
-
+public class BulletMoveForward : MonoBehaviour 
+{
+    // SerializeField exposes this value to the Editor
+    [SerializeField]
     private float acceleration = 50f;
 
     private float initialVelocity = 5f;
